@@ -35,7 +35,7 @@
       <div class="photo-users">
         <ul class="photo-users__list">
           <li class="photo-users__item">
-            <div class="photo-popular">
+            <div class="photo-user--popular">
               <img class="photo-popular__image" src="#" width="320px" height="137px" alt="">
               <span class="photo-popular__tip">Панорама дня</span>
               <div class="photo-description">
@@ -47,7 +47,7 @@
             </div>
           </li>
           <li class="photo-users__item">
-            <div class="photo-user">
+            <div class="photo-user--popular">
               <img class="photo-user__image" src="#" width="280px" height="180px" alt="">
               <div class="photo-description">
                 <p class="photo-description__user">Левон</p>
@@ -58,7 +58,7 @@
             </div>
           </li>
           <li class="photo-users__item">
-            <div class="photo-user">
+            <div class="photo-user--popular">
               <img class="photo-user__image" src="#" width="280px" height="180px" alt="">
               <div class="photo-description">
                 <p class="photo-description__user">Антон</p>
@@ -69,7 +69,7 @@
             </div>
           </li>
           <li class="photo-users__item">
-            <div class="photo-user">
+            <div class="photo-user--popular">
               <img class="photo-user__image" src="#" width="280px" height="180px" alt="">
               <div class="photo-description">
                 <p class="photo-description__user">Борис</p>
@@ -80,7 +80,7 @@
             </div>
           </li>
           <li class="photo-users__item">
-            <div class="photo-user">
+            <div class="photo-user--popular">
               <img class="photo-user__image" src="#" width="280px" height="180px" alt="">
               <div class="photo-description">
                 <p class="photo-description__user">Сергей</p>
@@ -91,7 +91,7 @@
             </div>
           </li>
           <li class="photo-users__item">
-            <div class="photo-user">
+            <div class="photo-user--popular">
               <img class="photo-user__image" src="#" width="280px" height="180px" alt="">
               <div class="photo-description">
                 <p class="photo-description__user">Максим</p>
@@ -102,7 +102,7 @@
             </div>
           </li>
           <li class="photo-users__item">
-            <div class="photo-user">
+            <div class="photo-user--popular">
               <img class="photo-user__image" src="#" width="280px" height="180px" alt="">
               <div class="photo-description">
                 <p class="photo-description__user">Надежда</p>
@@ -117,7 +117,23 @@
       </div>
     </section>
     <p class="page-main__about">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
-
+    <section class="redactor">
+      <img class="redactor__image" src="#" alt="Ваше фото">
+      <ul class="redactor__list">
+        <li class="redactor__item">
+          <img class="redactor__item-image" src="#" alt="Обрезать">
+        </li>
+        <li class="redactor__item">
+          <img class="redactor__item-image" src="#" alt="Заливка">
+        </li>
+        <li class="redactor__item">
+          <img class="redactor__item-image" src="#" alt="Баланс">
+        </li>
+      </ul>
+      <input type="redactor__range" class="redactor__slide">
+      <button class="redactor__button" type="button">Запостить</button>
+      <button class="redactor__button--passive" type="button">Отмена</button>
+    </section>
   </main>
   <footer class="page-footer">
   <a href="index.html"><img class="page-footer__logo" src="#" width="147px" height="40px" alt="Пинк"></a>
